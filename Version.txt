@@ -1,0 +1,24 @@
+BUG反馈
+QQ:80163278
+邮箱:devgis@qq.com
+淘宝:http://flysoft.taobao.com
+----------------------------------------------------------------------------------------------
+2.0
+支持Postgresql数据库(各scheme中表名勿重复)
+localhost:9001/rest/T_TEST/q 查询全部 eq:http://localhost:9001/rest/T_TEST/q
+localhost:9001/rest/T_TEST/q/{where} 按条件查询 eq:http://localhost:9001/rest/T_TEST/q/id='1'
+localhost:9001/rest/T_TEST/{colname}/{colvalue} 按列查询 eq:http://localhost:9001/rest/T_TEST/id/'1'
+localhost:9001/rest/T_TEST/q/p/{pagesize}/{pageindex} 所有数据分页 eq:http://localhost:9001/rest/T_TEST/q/p/5/1
+localhost:9001/rest/T_TEST/q/p/{pagesize}/{pageindex}/{where} 按查询条件分页 eq:http://localhost:9001/rest/T_TEST/q/p/10/1/id='1'
+*带{}为变量 需要输入相应值或者表达式(Where)
+全部未get方式
+----------------------------------------------------------------------------------------------
+
+1.1
+jsonp格式支持方便JQUERY调用
+日志记录功能
+采用流的方式写数据进行优化优化
+----------------------------------------------------------------------------------------------
+1.0
+基本功能
+----------------------------------------------------------------------------------------------
