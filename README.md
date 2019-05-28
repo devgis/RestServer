@@ -1,3 +1,5 @@
+# RestServer
+
 ## RestServer 可以方便的将MSSQL,Oracle,MySQL,PostGresql数据库发布成rest服务供我们调用减少程序员的编码。RestServer 简单易用 配置非常简单！
 ## RestServer is a Helpful soft to publish MSSQL,Oracle,MySQL,PostGresql data to a rest server,so it can help programer reduce workload! And it's very easier to use!
 
@@ -41,9 +43,7 @@
 * f)	JSONPHANDEL 设置类型为JSONP时需要配置此内容。
 * g)	WRITELOG 为True时写日志 否则不写日志。
 * 4)	启动软件注意win7以上系统包括Server 2008以上系统请使用右键管理员方式执行，否则会启动失败。启动成功后会有如下提示：
- 
 * 表示服务已经启动成功。接下来我们就可以受用了。
-
 
 ## 5.	开始使用
 * 启动成功后就可以使用了。比如上一节配置了t_log和t_car两张表
@@ -57,13 +57,10 @@
 * 字符类型查找如下：
 * http://localhost:9001/rest/T_TEST/name/'张三'
 * 查询结果：
- 
 * 按照数值列等查找则值不需要’’如下：
 * http://localhost:9001/rest/T_TEST/id/1
 * 查询结果如下：
- 
 * 由于1.1.0.35以后支持JASONP 这时候返回结果类似如下：
- 
 
 ## 6.	2.0新增内容
 * 支持Postgresql数据库(各scheme中表名勿重复)
