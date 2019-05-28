@@ -21,7 +21,7 @@
 ### 1)	解压软件到相应目录。解压后主要有以下文件：
 ### 2)	安装.net Framework4.0(去微软官方网站下载或者网络搜索即可。)
 ### 3)	配置配置文件，配置文件在目录下RestServer.exe.config使用记事本打开即可进行编辑修改。只需修改configuration/appSettings配置节下面的内容（配置之前最好先进行复制备份，然后再进行修改），配置文件说明如下：
-'''
+```
 <add key="HOSTNAME" value="localhost"/><!--服务器名称-->
     <add key="PORT" value="9001"/><!--Restf服务端口-->
     <add key="DBTYPE" value="MYSQL"/><!--ORACLE,MSSQL,MYSQL-->
@@ -30,13 +30,13 @@
     <!--[ORACLE]: Data Source = Data Source=carorcl;Persist Security Info=True;User ID=zcb;Password=zcb-->
     <!--[MySQL]: User Id=root;Host=localhost;Database=db_carmanager;password=root-->
 <add key="TABLES" value="t_log,t_car"/> <!--t_test , 分割-->
-'''
+```
 1.1.0.35中增加
-'''
+```
  <add key="DATATYPE" value="JSON"/><!--JSON,JSONP-->
  <add key="JSONPHANDEL" value="MyJsonP"/><!--DATATYPE为JSONP时配置此节内容-->
  <add key="WRITELOG" value="TRUE"/> <!--t_test , 分割--> 
-'''
+```
 * a)	HOSTNAME为当前主机名称,id地址或域名。
 * b)	PORT为需要使用的端口，请使用系统没有用的否则会创建失败。
 * c)	DBTYPE为数据库类型 必须为ORACLE,MSSQL或MYSQL，分别对应使用ORACLE数据库,MS SqlServer,MySQL数据库。
