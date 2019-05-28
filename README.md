@@ -1,8 +1,8 @@
-RestServer 可以方便的将MSSQL,Oracle,MySQL,PostGresql数据库发布成rest服务供我们调用减少程序员的编码。RestServer 简单易用 配置非常简单！
-RestServer is a Helpful soft to publish MSSQL,Oracle,MySQL,PostGresql data to a rest server,so it can help programer reduce workload! And it's very easier to use!
+## RestServer 可以方便的将MSSQL,Oracle,MySQL,PostGresql数据库发布成rest服务供我们调用减少程序员的编码。RestServer 简单易用 配置非常简单！
+## RestServer is a Helpful soft to publish MSSQL,Oracle,MySQL,PostGresql data to a rest server,so it can help programer reduce workload! And it's very easier to use!
 
 ## 1.	使用许可&版权说明
-### 1)	在保持本软件完整的情况下可以将本软件用于任何商业用途。
+### 1)	在保持本软件完整的情况下可以将本软件用于任何商业用途（不限用途和期限）。
 ### 2)	本软件可以自由传播，但是请保持软件相关文件和说明文档完整。
 ### 3)	未经许可不得将本软件反编译进行修改。
 ### 4)	如不同意以上许可请勿使用本软件。
@@ -81,3 +81,13 @@ RestServer is a Helpful soft to publish MSSQL,Oracle,MySQL,PostGresql data to a 
 ### 淘宝:https://shop329476445.taobao.com
 ### 微信:https://shop329476445.taobao.com
 ### 或者发送电子邮件到devgis@qq.com
+
+## 8.	覺得不錯 可以打個賞
+### 微信
+---
+![微信收款](zfb.jpg)
+
+### 支付宝
+---
+![支付宝收款](wx.jpg)
+---
