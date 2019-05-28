@@ -31,7 +31,7 @@
 <add key="TABLES" value="t_log,t_car"/> <!--t_test , 分割-->
 
 1.1.0.35中增加
-''' <add key="DATATYPE" value="JSON"/><!--JSON,JSONP-->'
+''' <add key="DATATYPE" value="JSON"/><!--JSON,JSONP-->
  <add key="JSONPHANDEL" value="MyJsonP"/><!--DATATYPE为JSONP时配置此节内容-->
  <add key="WRITELOG" value="TRUE"/> <!--t_test , 分割--> '''
 
